@@ -26,6 +26,55 @@
 * **Spot** são ideais para cargas de trabalho com horários de início e término flexíveis ou que podem suportar interrupções. As instâncias spot usam a capacidade de computação não utilizada do Amazon EC2 e oferecem economia de custos em até 90% de desconto dos preços sob demanda
 * **Hosts dedicados** são servidores físicos com capacidade de instância do Amazon EC2 totalmente dedicada ao uso do cliente
 
+### Escalabilidade do Amazon EC2 (Amazon EC2 Auto Scaling)
+
+O serviço da AWS que fornece essa funcionalidade (escalabilidade) para instâncias do Amazon EC2 é o **Amazon EC2 Auto Scaling**.  
+
+O Amazon EC2 Auto Scaling permite que você adicione ou remova automaticamente instâncias do Amazon EC2 em resposta à alteração da demanda da aplicação.  
+
+No Amazon EC2 Auto Scaling, você pode usar duas abordagens: escalabilidade dinâmica e escalabilidade preditiva.
+
+* Escalabilidade dinâmica responde às alterações na demanda. 
+* Escalabilidade preditiva programa automaticamente o número correto de instância do Amazon EC2 com base na demanda prevista.
+
+### Elastic Load Balancing
+
+**Elastic Load Balancing** é o serviço da AWS que distribui automaticamente o tráfego de entrada de aplicações entre vários recursos, como instâncias do Amazon EC2.    
+
+### Amazon Simple Notification Service (Amazon SNS)
+
+**Amazon Simple Notification Service (Amazon SNS)** é um serviço de publicação/assinatura (pub/sub). Usando tópicos do Amazon SNS, um editor publica mensagens para assinantes.  
+
+### Amazon Simple Queue Service (Amazon SQS)
+
+**Amazon Simple Queue Service (Amazon SQS)** é um serviço de enfileiramento de mensagens.   
+
+Use o Amazon SQS para enviar, armazenar e receber mensagens entre componentes de software, sem perder mensagens ou precisar que outros serviços estejam disponíveis. No Amazon SQS, uma aplicação envia mensagens para uma fila. Um usuário ou serviço recupera uma mensagem da fila, a processa e a exclui da fila.
+
+### AWS Lambda
+
+O **AWS Lambda** é um serviço que permite a execução de códigos sem a necessidade de provisionar ou gerenciar servidores.   
+
+Ao usar o AWS Lambda, você paga apenas pelo tempo de computação que consumir. As cobranças se aplicam somente quando seu código está em execução. Você pode executar códigos para praticamente qualquer tipo de aplicação ou serviço de back-end sem necessidade de qualquer administração.  
+
+### Amazon Elastic Container Service (Amazon ECS)
+
+O **Amazon Elastic Container Service (Amazon ECS)** é um sistema de gerenciamento de contêineres altamente escalável e de alta performance que permite executar e escalar aplicações em contêineres na AWS. 
+
+O Amazon ECS oferece suporte a contêineres Docker.  
+
+### Amazon Elastic Kubernetes Service (Amazon EKS)
+
+**Amazon Elastic Kubernetes Service (Amazon EKS)** é um serviço totalmente gerenciado que você pode usar para executar o Kubernetes na AWS.  
+
+Kubernetes é um software de código aberto que permite implantar e gerenciar aplicações em contêineres em grande escala.  
+
+### AWS Fargate
+
+**AWS Fargate** é um mecanismo de computação sem servidor para contêineres. Ele funciona com o Amazon ECS e o Amazon EKS.  
+
+Ao usar o AWS Fargate, você não precisa provisionar ou gerenciar servidores. O AWS Fargate gerencia sua infraestrutura de servidor para você.
+
 Fonte: https://www.aws.training/Details/eLearning?id=62551
 
 
