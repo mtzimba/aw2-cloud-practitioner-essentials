@@ -114,7 +114,24 @@ Usando a AWS CLI, você pode automatizar as ações que seus serviços e aplica�
 
 Os SDKs facilitam o uso dos serviços da AWS por meio de uma API projetada para sua linguagem de programação ou plataforma. Os SDKs permitem que você use serviços da AWS com suas aplicações existentes ou crie aplicações totalmente novas que serão executadas na AWS.
 
+## AWS Elastic Beanstalk
 
+O AWS Elastic Beanstalk, você fornece definições de código e configuração, e o Elastic Beanstalk implanta os recursos necessários para executar as seguintes tarefas:  
+
+* Ajustar capacidade  
+* Balanceamento de carga  
+* Escalabilidade automática  
+* Monitoramento da integridade da aplicação  
+
+##  AWS CloudFormation
+
+O AWS CloudFormation, você pode considerar sua infraestrutura como código. Isso significa que você pode criar um ambiente escrevendo linhas de código em vez de usar o Console de Gerenciamento da AWS para provisionar recursos individualmente.  
+
+O AWS CloudFormation provisiona os recursos de maneira segura e repetível, permitindo que você crie frequentemente sua infraestrutura e aplicações sem precisar executar ações manuais ou escrever scripts personalizados.
+
+## AWS Outposts
+
+AWS Outposts é um serviço gerenciado que oferece a mesma infraestrutura, os serviços, as APIs e as ferramentas da AWS a praticamente qualquer datacenter, espaço de colocalização ou instalação on-premises para oferecer uma experiência híbrida verdadeiramente consistente. 
 
 Fonte: https://www.aws.training/Details/eLearning?id=62551
 
