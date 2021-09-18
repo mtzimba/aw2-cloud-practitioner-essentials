@@ -75,6 +75,47 @@ Kubernetes é um software de código aberto que permite implantar e gerenciar ap
 
 Ao usar o AWS Fargate, você não precisa provisionar ou gerenciar servidores. O AWS Fargate gerencia sua infraestrutura de servidor para você.
 
+## MÓDULO 3: INFRAESTRUTURA E CONFIABILIDADE GLOBAIS
+
+## Infraestrutura global da AWS
+
+**Region**
+
+Uma Region é uma área geográfica que contém recursos da AWS. Ao determinar a região certa para seus serviços, dados e aplicações, considere os quatro fatores de negócios a seguir:
+
+* Conformidade
+* Proximidade
+* Serviços disponíveis
+* Preço
+
+**Availability Zone**
+
+É um único datacenter ou um grupo de datacenters dentro de uma região.
+
+**Edge location**
+
+É um site que o **Amazon CloudFront** usa para armazenar cópias armazenadas em cache do seu conteúdo mais próximo dos seus clientes para uma entrega mais rápida.
+
+### Maneiras de interagir com os serviços da AWS
+
+## Console de Gerenciamento da AWS
+
+É uma interface baseada na Web para acessar e gerenciar os serviços da AWS. Você pode acessar rapidamente os serviços usados recentemente e pesquisar outros serviços por nome, palavra-chave ou sigla.  
+
+Você também pode usar a aplicação móvel do Console AWS para executar tarefas como monitoramento de recursos, visualização de alarmes e acesso a informações de faturamento.  
+
+## Interface da linha de comando da AWS (AWS CLI)
+
+A AWS CLI permite que você controle vários serviços da AWS diretamente da linha de comando em uma ferramenta.  
+A AWS CLI está disponível para usuários no Windows, macOS e Linux.  
+Usando a AWS CLI, você pode automatizar as ações que seus serviços e aplicações executam por meio de scripts.  
+
+## Kits de desenvolvimento de software (SDKs)
+
+Os SDKs facilitam o uso dos serviços da AWS por meio de uma API projetada para sua linguagem de programação ou plataforma. Os SDKs permitem que você use serviços da AWS com suas aplicações existentes ou crie aplicações totalmente novas que serão executadas na AWS.
+
+
+
 Fonte: https://www.aws.training/Details/eLearning?id=62551
 
 
